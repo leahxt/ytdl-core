@@ -116,6 +116,7 @@ declare module "@distube/ytdl-core" {
       isLive: boolean;
       isHLS: boolean;
       isDashMPD: boolean;
+      isDrc?: boolean;
     }
 
     interface thumbnail {
